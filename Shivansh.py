@@ -5,8 +5,8 @@ st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 
 with col1:
-    # Use relative path for image
-    st.image("assets/Shiv.jpeg")
+    # Use the raw URL for Shiv.jpeg
+    st.image("https://raw.githubusercontent.com/ShraddhaDarade/ShivanshPortfolio/main/Shiv.jpeg")
 
 with col2:
     st.title("Shivansh Khedkar")
@@ -18,8 +18,8 @@ with col2:
 col3, col4 = st.columns(2)
 
 with col3:
-    # Use relative path for image
-    st.image("assets/aaibaba.jpeg")
+    # Use the raw URL for aaibaba.jpeg
+    st.image("https://raw.githubusercontent.com/ShraddhaDarade/ShivanshPortfolio/main/aaibaba.jpeg")
 
 with col4:
     st.title("My Mom and Dad")
